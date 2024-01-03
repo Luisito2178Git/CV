@@ -8,14 +8,18 @@ body{
     display: grid;
     grid-template-columns: 2fr 1fr;
     /* background-color: red; */
+    row-gap: 10px;
+    /* border: 1px solid red; */
 }
 
 .column1{
     /* background-color: aqua; */
+    /* border: 1px solid red; */
 }
 .column2{
     /* background-color: orange; */
     margin: auto;
+    /* border: 1px solid red; */
 }
 
 .header{
@@ -25,6 +29,10 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.text{
+    font-size: 25px;
 }
 
 .image{
@@ -41,4 +49,22 @@ body{
     padding: 10px;
     width: 30px;
     height: 50px;
+}
+
+.example{
+    /* background-color: black; */
+}
+
+.example2{
+    /* background-color: blue; */
+    margin: 0 auto;
+    
+}
+.example2 p{
+    line-height: 10px;
+    
+}
+.example2 p a{
+    text-decoration: none;
+    color: #000;
 }
