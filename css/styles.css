@@ -1,0 +1,44 @@
+body{
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    background-color: antiquewhite;
+}
+.columns{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* background-color: red; */
+}
+
+.column1{
+    /* background-color: aqua; */
+}
+.column2{
+    /* background-color: orange; */
+    margin: auto;
+}
+
+.header{
+    color: #000;
+    font-family: Ink Free;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.icons{
+}
+
+.icon{
+    padding: 10px;
+    width: 30px;
+    height: 50px;
+}
