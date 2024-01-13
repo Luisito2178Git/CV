@@ -1,21 +1,19 @@
 body{
-    width: 80%;
+    width: 60%;
     justify-content: center;
     margin: auto;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgb(228, 228, 228) 100%);
 }
 .columns{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    /* background-color: red; */
     row-gap: 10px;
+    /* background-color: red; */
     /* border: 1px solid red; */
 }
 
-.column1{
-    /* background-color: aqua; */
-    /* border: 1px solid red; */
-}
 .column2{
     /* background-color: orange; */
     margin: auto;
@@ -31,40 +29,92 @@ body{
     line-height: normal;
 }
 
+h1{
+    text-align: center;
+}
+
 .text{
-    font-size: 25px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.AboutMe{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 .image{
-    width: 150px;
-    height: 150px;
+    width: 230px;
+    height: 200px;
     border-radius: 50%;
     padding: 10px;
+    zoom: 133%;
+}
+
+svg{
+    padding: 10px;
+    width: 30px;
 }
 
 .icons{
+    display: flex;
+    justify-content: center;
 }
 
 .icon{
     padding: 10px;
     width: 30px;
-    height: 50px;
 }
 
-.example{
-    /* background-color: black; */
+.info p{
+    margin-top: 0;
 }
 
-.example2{
+.info2{
     /* background-color: blue; */
     margin: 0 auto;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
-.example2 p{
+.info2 p{
     line-height: 10px;
-    
 }
-.example2 p a{
+.info2 p a{
     text-decoration: none;
     color: #000;
+    
+}
+
+.subtitle{
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle-text{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitle p{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-subtitle{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.info-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p a{
+    text-decoration: none;
+}
+
+.last{
+    text-align: center;
+    margin-bottom: 100px;
 }
