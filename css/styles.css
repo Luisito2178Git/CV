@@ -108,13 +108,23 @@ svg{
 
 .info-text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
+
+
 
 p a{
     text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+}
+
+p a:hover{
+    background-color: antiquewhite;
 }
 
 .last{
     text-align: center;
     margin-bottom: 100px;
 }
+
